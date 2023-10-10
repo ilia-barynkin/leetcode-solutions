@@ -49,10 +49,6 @@ public:
 
         return res;
     }
-
-    bool exist(const vector<vector<char>>& board, string word) {
-        return exist(const_cast<vector<vector<char>>&>(board), word);
-    }
 };
 
 int main(int argc, char* argv[]) {
