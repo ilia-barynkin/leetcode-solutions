@@ -5,6 +5,7 @@ using namespace std;
 
 class Solution {
 public:
+    // todo: map, vector
     int lengthOfLongestSubstring(const string& s) {
         int result = 0;
         int i =0, j = 0;
