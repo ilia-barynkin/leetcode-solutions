@@ -34,8 +34,8 @@ public:
 int main(int argc, char* argv[]) {
     Solution sol;
     
-    sol.permute({1});
-    sol.permute({1, 2});
+    //sol.permute({1});
+    //sol.permute({1, 2});
     sol.permute({1,2,3});// == vector<vector<int>>({{1,2,3},{1,3,2},{2,1,3},{2,3,1},{3,1,2},{3,2,1}}));
 
     return 0;
